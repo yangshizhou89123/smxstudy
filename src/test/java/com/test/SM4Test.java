@@ -1,11 +1,13 @@
 package com.test;
 
 import com.smx.sm4.SM4Utils;
+import org.junit.Test;
 
 public class SM4Test {
     /**
      * 测试加密解密
      */
+    @Test
     public  void testEncryptDecrypt() {
         try {
             String message = "DSDSD";
